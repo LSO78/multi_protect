@@ -8,8 +8,8 @@ Il protège un fichier en **confidentialité** et en **intégrité** pour N dest
 Le schéma repose sur du **chiffrement hybride** : un chiffrement symétrique rapide pour les données, et un chiffrement asymétrique pour distribuer la clé de session à chaque destinataire.
 ### 1. Génération de la clé de session
 À chaque chiffrement, deux valeurs sont tirées aléatoirement :
-- `Kc` — clé de session `AES-256` (32 octets)
-- `IV` — vecteur d'initialisation `AES-CBC` (16 octets)
+- `Kc` : clé de session `AES-256` (32 octets)
+- `IV` : vecteur d'initialisation `AES-CBC` (16 octets)
 
 Ces valeurs ne sont jamais réutilisées et ne transitent jamais en clair.
 
