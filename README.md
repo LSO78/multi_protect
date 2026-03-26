@@ -2,7 +2,7 @@
 
 Outil de chiffrement multi-destinataires en ligne de commande, développé dans le cadre du Mastère Spécialisé en Sécurité des Systèmes d'Information (MS-SIS).
 
-Il protège un fichier en **confidentialité** et en **intégrité** pour N destinataires simultanément. Chaque destinataire légitime peut déprotéger le fichier avec sa propre clé privée ; un destinataire non légitime ne peut rien en faire.
+Il protège un fichier en **confidentialité** et en **intégrité** pour N destinataires simultanément. Chaque destinataire légitime peut déprotéger le fichier avec sa propre clé privée, un destinataire non légitime ne peut rien en faire.
 
 ## Principe cryptographique
 Le schéma repose sur du **chiffrement hybride** : un chiffrement symétrique rapide pour les données, et un chiffrement asymétrique pour distribuer la clé de session à chaque destinataire.
